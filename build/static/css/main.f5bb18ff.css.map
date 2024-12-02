@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.f5bb18ff.css","mappings":"AAAA,KAGI,wBAAyB,CADzB,gCAAoC,CADpC,QAGF","sources":["index.css"],"sourcesContent":["body {\r\n    margin: 0;\r\n    font-family: 'Open Sans', sans-serif;\r\n    background-color: #f9f9f9;\r\n  }\r\n  "],"names":[],"sourceRoot":""}
