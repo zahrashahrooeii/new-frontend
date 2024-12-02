@@ -53,6 +53,8 @@ const Homepage = () => {
             TurtleBot3 Playground
           </button>
         </Link>
+        
+        {/* Dropdown for Tasks */}
         <div ref={dropdownRef} className="relative">
           <button
             className={`w-[342px] h-[96px] rounded-[26px] bg-[#F2F2F2] border border-[#D1D1D1] shadow-sm text-lg font-semibold ${
@@ -68,24 +70,30 @@ const Homepage = () => {
               className="absolute top-[110%] left-0 bg-white border border-[#D1D1D1] rounded-lg shadow-md w-[342px] z-10"
             >
               <ul className="divide-y divide-[#D1D1D1]">
-                <li
-                  className="px-6 py-4 text-center hover:bg-[#D9D9D9] cursor-pointer rounded-t-lg"
-                  style={{ fontFamily: "Open Sans" }}
-                >
-                  Task 1
-                </li>
-                <li
-                  className="px-6 py-4 text-center hover:bg-[#D9D9D9] cursor-pointer"
-                  style={{ fontFamily: "Open Sans" }}
-                >
-                  Task 2
-                </li>
-                <li
-                  className="px-6 py-4 text-center hover:bg-[#D9D9D9] cursor-pointer rounded-b-lg"
-                  style={{ fontFamily: "Open Sans" }}
-                >
-                  Task 3
-                </li>
+                <Link to="/arduino-playground">
+                  <li
+                    className="px-6 py-4 text-center hover:bg-[#D9D9D9] cursor-pointer rounded-t-lg"
+                    style={{ fontFamily: "Open Sans" }}
+                  >
+                    Task 1
+                  </li>
+                </Link>
+                <Link to="/turtlebot3-playground">
+                  <li
+                    className="px-6 py-4 text-center hover:bg-[#D9D9D9] cursor-pointer"
+                    style={{ fontFamily: "Open Sans" }}
+                  >
+                    Task 2
+                  </li>
+                </Link>
+                <Link to="/turtlebot3-playground">
+                  <li
+                    className="px-6 py-4 text-center hover:bg-[#D9D9D9] cursor-pointer rounded-b-lg"
+                    style={{ fontFamily: "Open Sans" }}
+                  >
+                    Task 3
+                  </li>
+                </Link>
               </ul>
             </div>
           )}

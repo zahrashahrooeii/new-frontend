@@ -89,7 +89,7 @@ const Turtlebot3Playground = () => {
         >
           <p className="text-gray-500 p-5">Blockly will be integrated here.</p>
         </div>
-        <div className="flex items-center justify-between mt-4 gap-14">
+        <div className="flex items-center justify-between mt-5 gap-1">
           {/* File Name Section */}
           <div className="flex items-center gap-2">
             <label className="text-sm font-medium">File Name</label>
